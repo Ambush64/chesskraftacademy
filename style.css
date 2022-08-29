@@ -848,11 +848,6 @@ Responsive Codes
     height: 100%;
   }
 
-  .common-img img {
-    width: 100% !important;
-    height: 100% !important;
-  }
-
   .common h1 {
     margin-top: 1rem;
   }
@@ -910,13 +905,17 @@ Responsive Codes
 
   .about-us-heading {
     margin-top: 5.5rem;
-
-    /* font-size: 3rem; */
   }
 
   .common .chesskraft {
     width: 100%;
     font-size: 3.2rem;
+  }
+
+  .common-img img,
+  .common-img iframe {
+    width: 100% !important;
+    height: 100% !important;
   }
 
   .common .chesskraft::before {
